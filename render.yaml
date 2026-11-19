@@ -1,0 +1,26 @@
+# Render Blueprint: Dashboard > New > Blueprint > เลือก repo นี้
+services:
+  - type: web
+    name: rodprompt
+    runtime: node
+    plan: free # ข้อมูลรีเซ็ตเมื่อ deploy ใหม่หรือรีสตาร์ต (ระบบสร้างข้อมูลตัวอย่างกลับมาเอง)
+    buildCommand: npm ci
+    startCommand: node server.js
+    healthCheckPath: /api/me
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "22.14.0"
+      - key: ADMIN_PASSWORD
+        generateValue: true # Render สุ่มรหัสให้ ดูได้ที่ Environment ของ service
+    # ถ้าเปลี่ยนเป็นแพ็กเกจ starter และต้องการเก็บข้อมูลถาวร ให้เปิดส่วนนี้:
+    # disk:
+    #   name: rodprompt-data
+    #   mountPath: /var/data
+    #   sizeGB: 1
+    # แล้วเพิ่ม envVars:
+    #   - key: DATA_DIR
+    #     value: /var/data/db
+    #   - key: UPLOAD_DIR
+    #     value: /var/data/uploads

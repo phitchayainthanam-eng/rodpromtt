@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# runtime data: database, sessions, uploaded car photos and driving licences
+data/
+uploads/
+
+# local env and logs
+.env
+.env.*
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "file": "hero.jpg",
+    "title": "Mountain Road in Ko Pha Ngan 2.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mountain_Road_in_Ko_Pha_Ngan_2.jpg"
+  },
+  "region-north": {
+    "file": "region-north.jpg",
+    "title": "Pang Ung.jpg",
+    "author": "TimeVersusMilk",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Pang_Ung.jpg"
+  },
+  "region-northeast": {
+    "file": "region-northeast.jpg",
+    "title": "(02f) Phanom Rung (NgnL)-08290.jpg",
+    "author": "No(0)GoodNamesLeft",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:(02f)_Phanom_Rung_(NgnL)-08290.jpg"
+  },
+  "region-central": {
+    "file": "region-central.jpg",
+    "title": "Wat Chai Watthanaram - Ayutthaya.jpg",
+    "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wat_Chai_Watthanaram_-_Ayutthaya.jpg"
+  },
+  "region-east": {
+    "file": "region-east.jpg",
+    "title": "Ko Chang, Ko Chang District, Trat, Thailand - panoramio (21).jpg",
+    "author": "Serj Kras",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ko_Chang,_Ko_Chang_District,_Trat,_Thailand_-_panoramio_(21).jpg"
+  },
+  "region-west": {
+    "file": "region-west.jpg",
+    "title": "Erawan waterfall.JPG",
+    "author": "The original uploader was Drimascus at German Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Erawan_waterfall.JPG"
+  },
+  "region-south": {
+    "file": "region-south.jpg",
+    "title": "Phang Nga Bay, Karst islands, Thailand.jpg",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Phang_Nga_Bay,_Karst_islands,_Thailand.jpg"
+  }
+}
